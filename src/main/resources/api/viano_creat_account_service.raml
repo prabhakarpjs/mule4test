@@ -1,0 +1,13 @@
+#%RAML 1.0
+title: viano_creat_account_service
+version: v1
+
+/create-account:
+  get:
+    description: "This API going to create new record"
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              !include example.raml
